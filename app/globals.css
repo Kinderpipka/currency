@@ -20,6 +20,7 @@
   border-radius: 20px;
   background-color: aliceblue;
   justify-content: space-between;
+  margin-top: 20px;
 }
 .div_balance{
   display: flex;
@@ -70,6 +71,8 @@ body {
     )
     rgb(var(--background-start-rgb));
     background-color: rgb(97, 2, 73);
+    
+  
 }
 
 @layer utilities {
