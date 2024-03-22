@@ -8,6 +8,51 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+
+.div_currency {
+  width: 40vw; 
+  height: 40vh;
+  margin: auto; 
+  box-shadow: 2px 2px 5px rgba(114, 2, 114, 0.185); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: aliceblue;
+  justify-content: space-between;
+}
+.div_balance{
+  display: flex;
+  justify-content: space-between;
+}
+.p_balance{
+  border-radius: 4px;
+  background-color: rgb(136, 131, 136);
+  color:aliceblue;
+  margin: 10px;
+}
+.head{
+  margin-top: 10px;
+  width: 200px; /* задаем фиксированную ширину */
+  white-space: nowrap; /* предотвращаем перенос строк */
+  overflow: hidden; /* скрываем лишний текст */
+  text-overflow: ellipsis; 
+  border-bottom: solid;
+}
+
+.currency-icon {
+  font-size: 1.2em; /* Установите размер символа в соответствии с вашим дизайном */
+  margin-left: 5px; /* Добавьте отступ для разделения символа от остального текста */
+}
+
+.textField {
+  margin-bottom: 20px;
+ }
+
+.Button {
+  align-self: center;
+ }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -24,6 +69,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    background-color: rgb(97, 2, 73);
 }
 
 @layer utilities {
